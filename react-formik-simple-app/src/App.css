@@ -9,7 +9,9 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="channel"],
+textarea {
   display: block;
   width: 400px;
   padding: 4px 12px;
@@ -20,5 +22,11 @@ input[type="email"] {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
+  /* margin-bottom: 20px; */
+}
+.form-control {
   margin-bottom: 20px;
+}
+.error {
+  color: rgb(224, 79, 79);
 }
